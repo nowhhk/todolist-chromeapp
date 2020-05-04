@@ -1,0 +1,81 @@
+body {
+    color: #dfe4ea;
+    text-align: center;
+    margin-top: 15%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    font-size: 0.8rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+input {
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #dfe4ea;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 3%;
+}
+
+.todo {
+    margin: auto;
+    width: max-content;
+}
+
+.todo ul {
+    text-align: left;
+}
+
+input::placeholder {
+    color: white
+}
+
+ul {
+    margin-bottom: 30%;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.form,
+.greeting {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.bgimage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
